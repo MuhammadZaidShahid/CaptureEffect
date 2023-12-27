@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3A61A12B3CE1F600AE8A9B /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A61A02B3CE1F600AE8A9B /* CameraService.swift */; };
 		FAED58432B3C3FAC0053B2A3 /* CaptureEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED58422B3C3FAC0053B2A3 /* CaptureEffectApp.swift */; };
 		FAED58452B3C3FAC0053B2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED58442B3C3FAC0053B2A3 /* ContentView.swift */; };
 		FAED58472B3C3FAE0053B2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAED58462B3C3FAE0053B2A3 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3A61A02B3CE1F600AE8A9B /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		FAED583F2B3C3FAC0053B2A3 /* CaptureEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAED58422B3C3FAC0053B2A3 /* CaptureEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureEffectApp.swift; sourceTree = "<group>"; };
 		FAED58442B3C3FAC0053B2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				FAED58422B3C3FAC0053B2A3 /* CaptureEffectApp.swift */,
 				FAED58442B3C3FAC0053B2A3 /* ContentView.swift */,
+				FA3A61A02B3CE1F600AE8A9B /* CameraService.swift */,
 				FAED58462B3C3FAE0053B2A3 /* Assets.xcassets */,
 				FAED58482B3C3FAE0053B2A3 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				FAED58452B3C3FAC0053B2A3 /* ContentView.swift in Sources */,
 				FAED58432B3C3FAC0053B2A3 /* CaptureEffectApp.swift in Sources */,
+				FA3A61A12B3CE1F600AE8A9B /* CameraService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,8 @@
 				DEVELOPMENT_TEAM = 7HD3NCKF5N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photo and video.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +310,8 @@
 				DEVELOPMENT_TEAM = 7HD3NCKF5N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to capture photo and video.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
