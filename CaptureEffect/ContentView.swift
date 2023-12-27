@@ -11,12 +11,35 @@ struct ContentView: View {
     
     @State var inputField: String = ""
     var body: some View {
-        VStack {
+        HStack {
             TextField("Enter the name", text: $inputField) {
                 print("Hey there!")
             }
+            .padding()
+            .background(Color.white)
+            .cornerRadius(8)
+            .shadow(color: Color.gray.opacity(0.5) ,radius: 5)
+            
+            Button(action: {
+                
+            }, label: {
+                Image(systemName: "camera")
+                    .padding(3)
+                    .font(.title)
+            })
+            
+            Button(action: {
+                
+            }, label: {
+                Image(systemName: "mic")
+                    .font(.title)
+                    .padding(3)
+            })
+            
         }
         .padding()
+        Spacer()
+       
     }
 }
 
