@@ -10,9 +10,20 @@ import SwiftUI
 struct ContentView: View {
     
     @State var inputField: String = ""
+    @State private var capturedImage: UIImage? = nil
+    @State private var isCustomCameraViewPresented = false
+    
     var body: some View {
+        if capturedImage != nil {
+            Image(uiImage: capturedImage!)
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+        } else {
+            Color(UIColor.systemBackground)
+        }
         HStack {
-            TextField("Enter the name", text: $inputField) {
+            TextField("Enter the Text", text: $inputField) {
                 print("Hey there!")
             }
             .padding()
@@ -21,11 +32,14 @@ struct ContentView: View {
             .shadow(color: Color.gray.opacity(0.5) ,radius: 5)
             
             Button(action: {
-                
+                isCustomCameraViewPresented.toggle()
             }, label: {
                 Image(systemName: "camera")
                     .padding(3)
                     .font(.title)
+            })
+            .sheet(isPresented: $isCustomCameraViewPresented, content: {
+                CustomCameraView(capturedImage: $capturedImage)
             })
             
             Button(action: {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA3A61A12B3CE1F600AE8A9B /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A61A02B3CE1F600AE8A9B /* CameraService.swift */; };
 		FA3A61A32B3CEBC200AE8A9B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A61A22B3CEBC200AE8A9B /* CameraView.swift */; };
+		FA3A61A52B3CF88800AE8A9B /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3A61A42B3CF88800AE8A9B /* CustomCameraView.swift */; };
 		FAED58432B3C3FAC0053B2A3 /* CaptureEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED58422B3C3FAC0053B2A3 /* CaptureEffectApp.swift */; };
 		FAED58452B3C3FAC0053B2A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAED58442B3C3FAC0053B2A3 /* ContentView.swift */; };
 		FAED58472B3C3FAE0053B2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAED58462B3C3FAE0053B2A3 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		FA3A61A02B3CE1F600AE8A9B /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		FA3A61A22B3CEBC200AE8A9B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		FA3A61A42B3CF88800AE8A9B /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 		FAED583F2B3C3FAC0053B2A3 /* CaptureEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptureEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAED58422B3C3FAC0053B2A3 /* CaptureEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureEffectApp.swift; sourceTree = "<group>"; };
 		FAED58442B3C3FAC0053B2A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		FAED58412B3C3FAC0053B2A3 /* CaptureEffect */ = {
 			isa = PBXGroup;
 			children = (
+				FA3A61A42B3CF88800AE8A9B /* CustomCameraView.swift */,
 				FA3A61A22B3CEBC200AE8A9B /* CameraView.swift */,
 				FAED58422B3C3FAC0053B2A3 /* CaptureEffectApp.swift */,
 				FAED58442B3C3FAC0053B2A3 /* ContentView.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				FAED58452B3C3FAC0053B2A3 /* ContentView.swift in Sources */,
 				FAED58432B3C3FAC0053B2A3 /* CaptureEffectApp.swift in Sources */,
+				FA3A61A52B3CF88800AE8A9B /* CustomCameraView.swift in Sources */,
 				FA3A61A12B3CE1F600AE8A9B /* CameraService.swift in Sources */,
 				FA3A61A32B3CEBC200AE8A9B /* CameraView.swift in Sources */,
 			);
